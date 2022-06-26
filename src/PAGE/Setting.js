@@ -1,11 +1,11 @@
 import React from 'react'
 
-function User() {
+function Setting() {
     return (
         <div className='body'>
-            testing user
+            testing setting
         </div>
     )
 }
 
-export default User
+export default Setting
