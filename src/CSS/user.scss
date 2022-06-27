@@ -1,0 +1,24 @@
+.user{
+    background: $text-color;
+    width: 100%;
+
+    .get-data-area {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .get-data-btn{
+            background: $text-color;
+            color: $main-color;
+            border-radius: $btn-border-radius;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border: 5px double $main-color;
+            font-size: 1.25em;
+            padding: 2px;
+            margin: 5px;
+        }
+    }
+}

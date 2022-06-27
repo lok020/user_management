@@ -17,7 +17,6 @@ const Layout = () => {
   }
 
   const handleChangeRoute = (e) => {
-    console.log(e.target.id);
     setCurRoute(e.target.id);
   }
 
